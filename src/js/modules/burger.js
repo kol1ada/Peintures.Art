@@ -1,7 +1,6 @@
 const burger = (menuSelector, burgerSelector) => {
     const menuElem = document.querySelector(menuSelector),
         burgerElem = document.querySelector(burgerSelector);
-    console.log(burgerElem)
 
     menuElem.style.display = 'none'
 
